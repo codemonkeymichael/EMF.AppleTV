@@ -39,12 +39,12 @@ namespace EMFTV.Services
             try
             {
                 string platformType = "AppleTV";
-                string encoding = "aac";
+                string encoding = "hls";
 
                 var url = $"{Application.Config.StreamServiceApi}?network={Variables.Networks[Variables.CurrentChannel.Networkid]}";
-                url += $"&zip_code=";
+                //url += $"&zip_code=";
                 url += $"&encoding={encoding}&platform={platformType}";
-                url += "&visitor_id=&session_id=&client_ip=";
+                //url += "&visitor_id=&session_id=&client_ip=";
                 Console.WriteLine(url);
                 //Variables.StreamRequestUrl = url;
                 BroadcastStream streamObject = new BroadcastStream();

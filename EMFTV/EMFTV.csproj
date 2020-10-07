@@ -23,13 +23,14 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>Apple Development: Mobile Developer (SUM6C893X4)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
     <IOSDebuggerPort>33827</IOSDebuggerPort>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
+    <CodesignProvision>VS: tvOS WildCard Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>pdbonly</DebugType>
@@ -37,13 +38,14 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>Apple Distribution: Emf Broadcasting (3NJ54RH7P4)</CodesignKey>
     <MtouchUseLlvm>true</MtouchUseLlvm>
     <MtouchFloat32>true</MtouchFloat32>
     <MtouchEnableBitcode>true</MtouchEnableBitcode>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
+    <CodesignProvision>K-LOVE tvOS Distribution</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
@@ -51,10 +53,11 @@
     <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>Apple Development: Mobile Developer (SUM6C893X4)</CodesignKey>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
+    <CodesignProvision>VS: tvOS WildCard Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,7 +67,7 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>Apple Development: Mobile Developer (SUM6C893X4)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
@@ -74,6 +77,7 @@
     <IOSDebuggerPort>26001</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
+    <CodesignProvision>VS: tvOS WildCard Development</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,73 +86,65 @@
     <Reference Include="Xamarin.TVOS" />
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back-lg.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front-lg.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle-lg.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back%402x.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front%402x.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle%402x.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\top-shelf-klove-wide.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image Wide.imageset\top-shelf-klove-wide%402x.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\top-shelf-klove.png" />
-    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\Top Shelf Image.imageset\top-shelf-klove%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\.DS_Store" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\LaunchImageTV.launchimage\Icon-tvOS-Launch%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\LaunchImageTV.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\LaunchImageTV.launchimage\Icon-tvOS-Launch.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\.DS_Store" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\.DS_Store" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image Wide.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\.DS_Store" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\.DS_Store" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image Wide.imageset\top-shelf-klove-wide.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image Wide.imageset\top-shelf-klove%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image.imageset\top-shelf-klove.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image.imageset\top-shelf-klove%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back-lg.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front-lg.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle-lg.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\LaunchImageTV.launchimage\kl-1920x1080.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\LaunchImageTV.launchimage\kl-3840x2160.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\LaunchImageTV.launchimage\kl-1920x1080-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\LaunchImageTV.launchimage\kl-3840x2160-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back-lg-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front-lg-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle-lg-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image Wide.imageset\top-shelf-klove-wide-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image Wide.imageset\top-shelf-klove-wide%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image.imageset\top-shelf-klove-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image.imageset\top-shelf-klove%402x-1.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
