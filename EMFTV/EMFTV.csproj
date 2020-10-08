@@ -145,6 +145,21 @@
     <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image Wide.imageset\top-shelf-klove-wide%402x.png" />
     <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image.imageset\top-shelf-klove-1.png" />
     <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image.imageset\top-shelf-klove%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image.imageset\top-shelf-klove-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image.imageset\top-shelf-klove%402x-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image Wide.imageset\top-shelf-klove-wide-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\Top Shelf Image Wide.imageset\top-shelf-klove-wide%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back-lg-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front-lg-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle-lg-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Back.imagestacklayer\Content.imageset\tv-ic-klove-back%402x-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Front.imagestacklayer\Content.imageset\tv-ic-klove-front%402x-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\AppIconTV.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\tv-ic-klove-middle%402x-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\LaunchImageTV.launchimage\kl-1920x1080-2.png" />
+    <ImageAsset Include="Assets.xcassets\Images.xcassets\LaunchImageTV.launchimage\kl-3840x2160-2.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

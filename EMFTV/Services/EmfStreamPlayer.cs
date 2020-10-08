@@ -35,7 +35,10 @@ namespace EMFTV.Services
             streamingItem = AVPlayerItem.FromUrl(url);
             streamingItem.AddObserver(this, new NSString("rate"), 0, new IntPtr(0));
             streamingItem.AddObserver(this, new NSString("status"), 0, new IntPtr(0));
+            streamingItem.AddObserver(this, new NSString("timedMetadata"), 0, new IntPtr(0));
+
             ReplaceCurrentItemWithPlayerItem(streamingItem);
+         
         }
 
         protected virtual void OnStatusChanged(EventArgs e, int status)
@@ -55,6 +58,7 @@ namespace EMFTV.Services
             {
                 if (keyPath == "status")
                 {
+                    Console.WriteLine("status! " + Status + " "  );
                     if (Status == AVPlayerStatus.ReadyToPlay)
                     {
                         PlayCount++;
@@ -65,6 +69,19 @@ namespace EMFTV.Services
                         Console.WriteLine("Initializing Stream...");
                         Play();
                     }
+                }
+
+                if (keyPath == "timedMetadata")
+                {
+                    Console.WriteLine("timed data!");
+
+                    foreach (var item in streamingItem.TimedMetadata)
+                    {
+                        Console.WriteLine(item.ToString());
+                    }
+              
+                    
+                 
                 }
             }
             catch (Exception ex)
