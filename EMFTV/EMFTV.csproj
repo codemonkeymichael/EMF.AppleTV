@@ -139,6 +139,7 @@
     <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Small.imagestack\Middle.imagestacklayer\Content.imageset\Middle-Icon-App-Small-400x240-P3%402x.png" />
     <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Back.imagestacklayer\Content.imageset\Bottom-Icon-App-Small-400x240.png" />
     <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Front.imagestacklayer\Content.imageset\Front-Icon-App-Small-400x240.png" />
+    <ImageAsset Include="Assets.xcassets\App Icon &amp; Top Shelf Image.brandassets\App Icon - Large.imagestack\Middle.imagestacklayer\Content.imageset\Middle-Icon-App-Small-400x240.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
