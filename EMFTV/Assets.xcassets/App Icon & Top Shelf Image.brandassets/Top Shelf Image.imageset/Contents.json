@@ -1,12 +1,12 @@
 {
   "images": [
     {
-      "filename": "top-shelf-klove.png",
+      "filename": "TopShelf.png",
       "scale": "1x",
       "idiom": "tv"
     },
     {
-      "filename": "top-shelf-klove@2x.png",
+      "filename": "TopShelfx2.png",
       "scale": "2x",
       "idiom": "tv"
     },
